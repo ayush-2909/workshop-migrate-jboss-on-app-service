@@ -3,14 +3,13 @@ name: Deploy Pull Request to staging slot
 on:
   pull_request:
     branches:
-    - master
-    - main
+    - ayush-2909-patch-1
 
 env:
-  WEBAPP: <replace-with-your-ase-webapp-name>
-  GATEWAY_NAME: <replace-with-your-gateway-name>
-  RESOURCE_GROUP: <replace-with-your-resource-group-name>
-  STORAGE_ACCOUNT: ""  # This must be a *globally* unique name. (Only lowercase letters and numbers allowed. No spaces, dashes, underscores.)
+  WEBAPP: redhattest244wxywp76akg
+  GATEWAY_NAME: gateway-redhattest244wxywp76akg-ilb-ase
+  RESOURCE_GROUP: Jbossonapp-870801
+  STORAGE_ACCOUNT: "shakuni2909912"  # This must be a *globally* unique name. (Only lowercase letters and numbers allowed. No spaces, dashes, underscores.)
 
   LOCATION: eastus
   CONTAINER: stagingartifacts
