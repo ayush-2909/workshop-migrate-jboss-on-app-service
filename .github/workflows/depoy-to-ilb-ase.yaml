@@ -8,7 +8,7 @@ on:
 env:
   WEBAPP: redhattest244wxywp76akg
   RESOURCE_GROUP: Jbossonapp-870801
-  STORAGE_ACCOUNT: ""  # This must be a *globally* unique name. (Only lowercase letters and numbers allowed. No spaces, dashes, underscores.)
+  STORAGE_ACCOUNT: "shakuni2909912"  # This must be a *globally* unique name. (Only lowercase letters and numbers allowed. No spaces, dashes, underscores.)
 
   LOCATION: eastus
   CONTAINER: artifacts
